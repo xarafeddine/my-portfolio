@@ -8,7 +8,7 @@ import {
   CardTitle,
 } from "../../components/ui/card";
 import { portfolioData } from "../../lib/data";
-import { Award, Calendar, ExternalLink } from "lucide-react";
+import { Award, Calendar } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
