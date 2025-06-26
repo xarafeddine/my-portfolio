@@ -132,6 +132,27 @@ export const portfolioData = {
   ],
   projects: [
     {
+      name: "Microservices with Go",
+      period: {
+        start: "Jan 2025",
+        end: "Ongoing",
+      },
+      githubUrl: "github.com/xarafeddine/microservices-go",
+      description:
+        "I built a distributed movie rating system using Go to deepen my understanding of microservices architecture. The project features multiple services communicating over gRPC, It includes containerization with Docker, orchestration using Kubernetes, service discovery and more",
+    },
+
+    {
+      name: "Schoolify - School Management System",
+      period: {
+        start: "Nov 2024",
+        end: "Ongoing",
+      },
+      githubUrl: "github.com/xarafeddine/schoolify-server",
+      description:
+        "Schoolify is a school management platform that enables educational organizations to create and manage multiple schools from a single dashboard. The system provides comprehensive tools for course creation, interactive exercise development, and resource management, allowing administrators and teachers to design curricula, build custom assessments with automated grading, and maintain shared libraries of educational materials. With multi-tenancy support and role-based access controls, Schoolify streamlines academic operations across multiple institutions while offering flexibility for individual school customization and student progress tracking.",
+    },
+    {
       name: "Maktaba - Book Management API",
       period: {
         start: "Oct 2024",
@@ -162,6 +183,16 @@ export const portfolioData = {
         "A lightweight Redis like TCP server that is capable of serving Redis commands, reading RDB files, and supporting multiple replicas. built from scratch using Bun and TypeScript.",
     },
     {
+      name: "QHSE Platform - Table demo",
+      period: {
+        start: "Jul 2024",
+        end: "Jul 2024",
+      },
+      githubUrl: "github.com/xarafeddine/QHSE-Table",
+      description:
+        "A sample from a QHSE platform, A table for managing safety equipment and workers",
+    },
+    {
       name: "Realtime chat app",
       period: {
         start: "May 2021",
@@ -173,23 +204,22 @@ export const portfolioData = {
     },
   ],
   skills: {
-    coreTechnologies: [
-      "TypeScript/JavaScript (ES6+)",
-      "Go",
-      "Node.js",
-      "React/React Native",
-    ],
+    coreTechnologies: ["Go", "TypeScript/JavaScript (ES6+)", "Node.js"],
     backendAndInfrastructure: [
       "Express.js",
-      "NestJS",
+      "Nest.js",
       "Gin",
+      "gRPC",
       "RESTful APIs",
       "GraphQL",
       "SQL/NoSQL Databases",
+      "PostgreSQL",
       "Microservices Architecture",
       "Docker",
       "Kubernetes",
       "CI/CD Pipelines",
+      "GitHub Actions",
+      "Terraform",
     ],
     frontendAndMobile: [
       "React",

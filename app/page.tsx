@@ -22,8 +22,8 @@ export default function Home() {
           {/* Main Content */}
           <main className="md:col-span-2">
             <About />
-            <Projects />
             <Experience />
+            <Projects />
           </main>
         </div>
       </div>
